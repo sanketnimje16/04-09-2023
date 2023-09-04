@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+
+        </style>
+        <script src="./js/script.js"></script>
+
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <p class="myparagraph"></p>
+        <p class="myparagraph2"></p>
+        <span data-sanket="temp"></span>
+        <div id="magic"></div>
+        <div class="send"></div>
+        <div data-sanket="joker"></div>
+        <div id="yo" style="color: purple;font-size: 3em;"></div> <!--1em = 16px -->
+        <div class="DJlijo" style="font-size: 2em;"></div>
+        <h1 class="gig" style="color:red;text-align: center;font-family: cursive;"></h1>
+        <div data-nimje="VFX" style="color: orange;font-size: 2em;font-weight: bold;"></div>
+        
+
+        <script>
+            //we will create a user's first name 
+            var name ="sanket";
+            //lets create user's height
+            let x = 5.6;
+            // lets y variable is represent product quantity
+            let y = 100;
+
+            // I want to see JS output
+            console.log(name);
+            console.log(typeof "sanket");
+            console.log(typeof 'sanket');                    
+            console.log(typeof `Sanket`);
+
+            // I want to see JS output an another way
+            //alert(typeof x); //Number not a Float 
+
+            // I want to see JS output an another way
+            document.querySelector("p.myparagraph").innerHTML = typeof x; 
+            document.querySelector("p.myparagraph2").innerHTML = "Hi Sanket this side"; 
+            document.querySelector("span[data-sanket='temp']").innerHTML = "Hi good morning welcome to Nagpur";
+            document.getElementById("magic").innerHTML = "India beat nepal";
+            document.querySelector('div.send').innerHTML = 'india vs australia';
+            document.querySelector('div[data-sanket="joker"]').innerHTML = "india vs south africa";
+            document.querySelector('div#yo').innerHTML = "india vs Pakistan";
+            document.querySelector('div.DJlijo').innerHTML = "House OF Dance";
+            document.querySelector('h1.gig').innerHTML = "DJ Chetas";
+            document.querySelector('div[data-nimje="VFX"]').innerHTML = "VFX Sanket Nimje";
+
+        </script>
+    </body>
+</html>
